@@ -1,0 +1,21 @@
+.tasca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .tasca button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tascaCompletada {
+    background-color: #d3d3d3;
+    text-decoration: line-through;
+  }
+  
